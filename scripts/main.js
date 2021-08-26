@@ -7,7 +7,7 @@ let btnCorreo = document.getElementById('btnCorreo');
 
 
 const usuario = new Usuario();
-const Interfaz = new InterfaceUsuario();
+const Interfaz = new InterfaceUsuario(); //Creacion del objeto Interfaz para la creacion del div con la informacion necesaria
 
 formulario.addEventListener('submit', e => {
     e.preventDefault();
@@ -18,18 +18,12 @@ formulario.addEventListener('submit', e => {
     usuario.apellido = apellido;
     usuario.correo = correo;
     //console.log(usuario);
-    localStorage.setItem('user',JSON.Stringfy(usuario) )
-    usuarioNew =  JSON.parse(localStorage.getItem('user'))
     usuario.crearPerfil(usuario);
-    Interfaz.divMostrarPerfil(usuarioNew);
+    Interfaz.divMostrarPerfil(usuario);  //La falta de prevencion del evento evita que se muestre en pantalla
     e.stopPropagation();
     
 })
-document.addEventListener('DOMContentLoaded', ()=> {
-    if (localStorage.getItem('Buscado') ) {
-        usuarios = JSON.parse(localStorage.getItem('Buscado'));
-    }
-})
+
 
 
 
