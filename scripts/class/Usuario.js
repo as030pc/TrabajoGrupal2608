@@ -21,6 +21,7 @@ export default class Usuario{
            //console.log(data.find(user => user.correo === email))
            localStorage.setItem('Buscado',JSON.stringify(data.find(user => user.correo === email)))
        })
+    //    .catch(console.warn)
     }
 
     editarPerfil(perfil,id){
@@ -30,7 +31,8 @@ export default class Usuario{
     }
 
     eliminarPerfil(id){
-        axios.put(this.url+id)
+        // axios.put(this.url+id)
+        axios.delete(this.url+id)  //Se logro identificar que la peticion de axios que se requiere es delete, que permite eliminar el ID
         .then(data => console.log(data))
         .catch(console.warn)
     }
