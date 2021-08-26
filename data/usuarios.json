@@ -8,10 +8,53 @@
       "id": 1
     },
     {
+      "url": "http://localhost:4000/usuarios/",
+      "nombre": "Andres Steven ",
+      "apellido": "Palma Castañeda",
+      "correo": "palma.castaneda015@gmail.com",
       "id": 2
     },
     {
+      "url": "http://localhost:4000/usuarios/",
+      "nombre": "",
+      "apellido": "",
+      "correo": "palma.castaneda015@gmail.com",
       "id": 3
+    },
+    {
+      "url": "http://localhost:4000/usuarios/",
+      "nombre": "",
+      "apellido": "",
+      "correo": "palma.castaneda015@gmail.com",
+      "id": 4
+    },
+    {
+      "url": "http://localhost:4000/usuarios/",
+      "nombre": "Andres Steven ",
+      "apellido": "Palma Castañeda",
+      "correo": "palma.castaneda030@gmail.com",
+      "id": 5
+    },
+    {
+      "url": "http://localhost:4000/usuarios/",
+      "nombre": "Andres Steven ",
+      "apellido": "Palma Castañeda",
+      "correo": "palma.castaneda015@gmail.com",
+      "id": 6
+    },
+    {
+      "url": "http://localhost:4000/usuarios/",
+      "nombre": "",
+      "apellido": "",
+      "correo": "",
+      "id": 7
+    },
+    {
+      "url": "http://localhost:4000/usuarios/",
+      "nombre": "Andres Steven ",
+      "apellido": "Palma Castañeda",
+      "correo": "palma.castaneda015@gmail.com",
+      "id": 8
     }
   ]
 }

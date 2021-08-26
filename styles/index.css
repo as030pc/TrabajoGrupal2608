@@ -9,6 +9,7 @@
 .campo {
     margin-left: 24px;
     margin-right: 24px;
+    
 }
 
 .edit {
@@ -18,10 +19,11 @@
     border: 1px solid #535353;
     margin: 4px 0px;
     margin-bottom: 16px;
+    border-radius: 10px;
 }
 
 .label-edit {
-    margin: 0px 10px;
+    margin: 0px 20px;
 }
 
 .usuario {
@@ -32,6 +34,7 @@
     padding: 0px;
     width: 94px;
     margin-left: 140px;
+    text-align: center;
 }
 
 .nombre{
@@ -40,7 +43,7 @@
     margin-top: 8px;
 }
 .btn-editar{
-    color: #0E172C;
+    color: #000000;
     margin-bottom: 24px;
 }
 .datos{
@@ -54,6 +57,11 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.Headline1{
+    text-align: center;
+    
 }
 
 @media (min-width: 540px){
@@ -71,7 +79,7 @@
     }
     .div-usuario {
         width: 80%;
-        background: #c3f0f4;
+        background: #bebebe;
         margin-left: 10%;
         border-radius: 25px;
         padding: 20px;
@@ -86,6 +94,7 @@
     .guardar-cambios{
         margin-left: 25%;
         width: 50%;
+        background-color: #000000;
     
     }
 }
